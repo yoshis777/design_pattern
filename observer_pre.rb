@@ -27,7 +27,7 @@ class Payroll
     puts "#{changed_employee.name}のために小切手を切りました"
     puts "彼の給料は月#{changed_employee.salary}円になりました"
   end
-endが
+end
 
 yuji = Employee.new('yuji', 'engineer', 100000, Payroll.new)
 yuji.salary = 999999
